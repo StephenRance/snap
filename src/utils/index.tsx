@@ -1,3 +1,4 @@
+import drawCard from './drawCard/drawCard';
 import shuffleCards from './shuffleCards/shuffleCards';
 
-export { shuffleCards };
+export { drawCard, shuffleCards };
