@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1240px;
+  padding-left: var(--theme-space-zeta);
+  padding-right: var(--theme-space-zeta);
+  width: 100%;
+}
