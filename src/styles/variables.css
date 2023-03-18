@@ -1,0 +1,30 @@
+:root {
+  --theme-color-primary: #010101;
+  --theme-color-secondary: #1a4a1c;
+  --thene-color-tertiary: #308834;
+  --theme-color-quaternary: #87a68b;
+  --theme-color-quinary: #b1c725;
+  --theme-color-senary: #d23737;
+  --theme-color-septenary: #eee;
+  --theme-color-octonary: #fff;
+
+  --theme-font-primary: 'Roboto', sans-serif;
+
+  --theme-size-alpha: 8.417rem;
+  --theme-size-beta: 6.315rem;
+  --theme-size-gamma: 4.737rem;
+  --theme-size-delta: 3.554rem;
+  --theme-size-epsilon: 2.666rem;
+  --theme-size-zeta: 2rem;
+  --theme-size-eta: 1.5rem;
+
+  --theme-space-alpha: 12rem;
+  --theme-space-beta: 8rem;
+  --theme-space-gamma: 6rem;
+  --theme-space-delta: 4rem;
+  --theme-space-epsilon: 3rem;
+  --theme-space-zeta: 2rem;
+  --theme-space-eta: 1.5rem;
+  --theme-space-theta: 1rem;
+  --theme-space-iota: 0.5rem;
+}
