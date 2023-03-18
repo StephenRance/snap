@@ -1,0 +1,7 @@
+.row {
+  padding-bottom: var(--theme-space-gamma);
+
+  &:first-of-type {
+    padding-top: var(--theme-space-gamma);
+  }
+}
