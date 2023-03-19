@@ -1,0 +1,11 @@
+.header {
+  padding-top: var(--theme-space-alpha);
+
+  &Copy {
+    font-size: var(--theme-size-delta);
+    font-weight: inherit;
+    margin-left: var(--theme-space-zeta);
+    margin-right: var(--theme-space-zeta);
+    text-align: center;
+  }
+}
