@@ -1,0 +1,51 @@
+.card {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: var(--theme-space-zeta);
+  margin-right: var(--theme-space-zeta);
+  max-width: 226px;
+  position: relative;
+  width: calc(50% - var(--theme-space-delta));
+
+  &:before {
+    border: var(--theme-color-septenary) solid 1px;
+    content: '';
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: -1;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    padding-bottom: 138.93805309734512%;
+    width: 100%;
+  }
+
+  &Img {
+    border-radius: 4%;
+  }
+
+  &Ribbon {
+    padding: var(--theme-space-theta) var(--theme-space-zeta);
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotateZ(-45deg);
+    z-index: 1;
+
+    &Error {
+      background: var(--theme-color-senary);
+      color: var(--theme-color-octonary);
+    }
+
+    &Success {
+      background: var(--theme-color-primary);
+      color: var(--theme-color-quinary);
+    }
+  }
+}

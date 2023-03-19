@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'deckofcardsapi.com',
+      },
+    ],
+  },
   reactStrictMode: true,
 };
-
-module.exports = nextConfig;
