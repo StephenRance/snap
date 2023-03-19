@@ -1,0 +1,15 @@
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: var(--theme-space-theta);
+  padding-left: var(--theme-space-theta);
+  list-style: none;
+  margin-bottom: calc(var(--theme-space-zeta) * -1);
+
+  &Item {
+    margin-right: var(--theme-space-theta);
+    margin-bottom: var(--theme-space-zeta);
+    margin-left: var(--theme-space-theta);
+  }
+}
