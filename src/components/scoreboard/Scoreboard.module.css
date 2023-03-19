@@ -1,0 +1,6 @@
+.scoreboard {
+  list-style: none;
+  margin-left: var(--theme-space-zeta);
+  margin-right: var(--theme-space-zeta);
+  text-align: center;
+}
